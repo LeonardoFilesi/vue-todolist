@@ -29,7 +29,7 @@ createApp ({
                 text: "Fare la spesa",
                 done: false,
             }, {
-                text: "cibarsi in tranquillità",
+                text: "Cibarsi in tranquillità",
                 done: false,
             }],
             newToDo: "",

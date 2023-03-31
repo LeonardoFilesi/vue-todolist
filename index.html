@@ -26,7 +26,7 @@
   
             <ul class="toDo-list" v-if="toDos.length > 0">
               <li v-for="(toDo, index) in toDos">
-                <p>{{ toDo }}</p>
+                <p>{{ toDo.text }}</p>
                 <span class="delete" @click="removeToDo(index)">&cross;</span>
               </li>
             </ul>
